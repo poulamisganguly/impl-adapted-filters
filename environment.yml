@@ -6,8 +6,6 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - _libgcc_mutex=0.1=conda_forge
-  - _openmp_mutex=4.5=0_gnu
   - astra-toolbox=1.9.0.dev10=np115py36_0
   - attrs=19.3.0=py_0
   - backcall=0.1.0=py36_0
@@ -205,5 +203,3 @@ dependencies:
   - pip:
     - pyqt5-sip==4.19.18
     - pyqtwebengine==5.12.1
-prefix: /export/scratch1/poulami/miniconda3/envs/impl-filters
-

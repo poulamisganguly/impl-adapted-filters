@@ -43,7 +43,7 @@ Start a JupyterLab instance by running
 
     jupyter lab --no-browser --port=5678 --ip=127.0.0.1
 
-Open the notebook on your web browser by clicking on the generated link or navigating to http://127.0.0.1:5678/
+Open the notebook on your web browser by clicking on the generated link.
 
 ## License
 

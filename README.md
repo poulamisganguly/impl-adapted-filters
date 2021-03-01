@@ -18,7 +18,7 @@ You can download a copy of all the files in this repository by cloning the
 
 ## Dependencies
 
-The required dependencies for this project are specified in the file `environment.yml`.
+The required dependencies for this project are specified in the file `environment.yml`. We used `conda` for package management.
 
 
 ## Usage
@@ -33,8 +33,12 @@ is located):
     
 Before running any code you must activate the conda environment:
 
-    conda activate ENVIRONMENT_NAME
+    conda activate impl-filters
 
+Install JupyterLab
+```
+    conda install -c conda-forge jupyterlab
+```
 Start a JupyterLab instance by running
 
     jupyter lab --no-browser --port=5678 --ip=127.0.0.1

@@ -3,7 +3,7 @@
 # Implementation-adapted filters
 
 This repository has example code for the paper:
-Improving reproducibility in synchrotron tomography by implementation-adapted filters by Ganguly et al.
+Improving reproducibility in synchrotron tomography by implementation-adapted filters by Ganguly et al (submitted to _Journal of Synchrotron Radiation_).
 
 Different tomographic software packages use different discretisations of the reconstruction problem. This results in quantitative differences between the filtered backprojection (FBP) and Fourier-space reconstructions obtained from such packages. In this paper, we propose to optimise the filter used in these algorithms to make reconstructions more similar (and therefore comparable) to each other. 
 

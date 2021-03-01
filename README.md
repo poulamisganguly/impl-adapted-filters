@@ -37,7 +37,7 @@ Before running any code you must activate the conda environment:
 
 Install JupyterLab
 ```
-    conda install -c conda-forge jupyterlab
+conda install -c conda-forge jupyterlab
 ```
 Start a JupyterLab instance by running
 
